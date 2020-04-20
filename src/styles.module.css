@@ -1,9 +1,62 @@
 /* add css module styles here (optional) */
+@import url('https://rsms.me/inter/inter.css');
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
+.question {
+  font-weight: 200;
+  font-family: 'Inter var', sans-serif;
   font-size: 2em;
-  text-align: center;
+  /* text-align: center; */
+}
+
+.choices {
+  width: 100%;
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+  /* justify-content: center; */
+  font-family: 'Inter var', sans-serif;
+}
+
+.yes {
+  background-color: rgba(50, 172, 100, 0.877);
+  padding: 1rem 0rem;
+  border-top-left-radius: 1.3rem;
+  border-bottom-left-radius: 1.3rem;
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: 'Inter var', sans-serif;
+  font-weight: 400;
+  transition: all ease-in-out .2s;
+}
+
+.no {
+  background-color: rgb(253, 71, 58);
+  padding: 1rem 0rem;
+  border-top-right-radius: 1.3rem;
+  border-bottom-right-radius: 1.3rem;
+  transition: all ease-in-out .2s;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+  white-space: nowrap;
+  font-weight: 400;
+  font-family: 'Inter var', sans-serif;
+}
+
+
+.yes:hover, .no:hover {
+  opacity: .6;
+  /* background-color: rgba(0, 150, 0, 0.568); */
+}
+
+button:focus, .yes:focus, .no:focus {
+  outline: none;
+}
+
+.totalVotes {
+  font-family: 'Inter var', sans-serif;
 }

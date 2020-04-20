@@ -15,12 +15,13 @@ npm install --save visspot-basic-binary-survey
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'visspot-basic-binary-survey'
+import {BasicBinarySurvey} from 'visspot-basic-binary-survey'
 import 'visspot-basic-binary-survey/dist/index.css'
 
 class Example extends Component {
+  // See full example in the example folder
   render() {
-    return <MyComponent />
+    return <BasicBinarySurvey  />
   }
 }
 ```
