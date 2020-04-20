@@ -1,6 +1,6 @@
 {
   "name": "@benchomsang/visspot-basic-binary-survey",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A VisSpot chart template: A basic poll with options to answer yes or no. No dataset required. ",
   "author": "1994benc",
   "license": "MIT",
