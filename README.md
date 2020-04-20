@@ -3,7 +3,7 @@
 > A VisSpot chart template: A basic poll with options to answer yes or no. No dataset required. 
 > Use on VisSpot.com only.
 
-[![NPM](https://img.shields.io/npm/v/visspot-basic-binary-survey.svg)](https://www.npmjs.com/package/@benchomsang/visspot-basic-binary-survey) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
